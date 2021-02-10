@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamika na strani klijenta</title>
+</head>
+<body>
+    <script>
+       function Prikazi(a=0) {
+           var slika = document.getElementById("img1");
 
+           if (a == 0) {
+               slika.src="/Slike/domaca_kafa.jpg";
+           }
+
+           if (a == 1) {
+            slika.src="/Slike/kafa.jpg";
+           }
+       }
+    </script>
+
+    <img id="img1" src="/Slike/domaca_kafa.jpg" alt="" onmouseover="Prikazi(1)" onmouseout="Prikazi(0)">
+</body>
+</html>

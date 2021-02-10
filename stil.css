@@ -1,0 +1,25 @@
+div.container {
+  width: 100%;
+  margin: auto;
+  border: 1px solid grey;
+}
+header,
+footer {
+  padding: 10px;
+  color: white;
+  background-color: #0c4182;
+  clear: left;
+  text-align: center;
+}
+nav {
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 10px;
+}
+article {
+  margin-left: 150px;
+  border-left: 1px solid gray;
+  padding: 10px;
+  overflow: hidden;
+}

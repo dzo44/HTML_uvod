@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinamika na strani klijenta</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
     <script>
@@ -16,11 +17,20 @@
            }
 
            if (a == 1) {
-            slika.src="/Slike/celsea.ong";
+            slika.src="/Slike/celsea.png";
            }
        }
     </script>
 
-    <img id="img1" src="/Slike/arsenal.png" alt="" onmouseover="Prikazi(1)" onmouseout="Prikazi(0)">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Arsenal vs Chelsea</h1>
+        </div>
+
+        <div class="col-md-4 offset-3">
+            <img id="img1" src="/Slike/arsenal.png" alt="" onmouseover="Prikazi(1)" onmouseout="Prikazi(0)">
+        </div>
+    </div>
+   
 </body>
 </html>
